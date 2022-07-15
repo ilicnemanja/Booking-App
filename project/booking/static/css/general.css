@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+/* FORM ABOUT /* background-color: #f7fafd; */ */
+
+.grid {
+    display: grid;
+    column-gap: 70px;
+    row-gap: 100px;
+
+}
+  
+.grid-2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+  
+.grid-3-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+  
+.grid-4-cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+  
+.grid-5-cols {
+    grid-template-columns: repeat(5, 1fr);
+}
+  
+.grid-center-v {
+    align-items: center;
+}
+
+.custom-btn {
+    padding: 10px 25px;
+    background: #ddeaf6;
+    color: #235784;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.custom-btn:hover {
+    background: #cee2f5;
+}
+
+.custom-btn-a a{
+    font-weight: bold;
+    text-decoration: none;
+}
+.custom-btn-a a {
+    text-decoration: none;
+    color: #235784;
+}
+.custom-btn-a a:hover {
+    background: #cee2f5;
+}
+
+.custom-btn-a:hover {
+    transition: transform 0.4s !important;
+    transform: scale(1.1,1.1);
+}
+
+.icon {
+    color: #235784;
+}
+
+.ionicon {
+    font-size: 22px;
+    color: #235784;
+}
+
+.arrow-right {
+    margin-left: 2px;
+}
+
+.custom-btn-rooms:hover .arrow-right {
+    padding-left: 5px;
+    transition: all 1s;
+}
+
