@@ -2,11 +2,24 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 
 body {
     font-family: 'Mulish', sans-serif;
 }
+
+a {
+    text-decoration: none;
+    color: #235784;
+}
+
+a:hover {
+    color: steelblue;
+}
+
 /* FORM ABOUT /* background-color: #f7fafd; */ */
 
 .grid {
@@ -84,3 +97,6 @@ body {
     transition: all 1s;
 }
 
+.p-margin {
+    margin: 0;
+}
